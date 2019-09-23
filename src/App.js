@@ -1,26 +1,19 @@
+//importing react from react library
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+//importing title function from title.js, can drop .js file extension
+import Title from './Title';
+
+const App = (props) =>{
+    return (
+        <div>
+            <h1>Here's our Fancy App.</h1>
+            <p>Hey pretty dope!</p>
+            <Title />
+            <Title />
+            <Title />
+        </div>
+    );
 }
 
 export default App;
