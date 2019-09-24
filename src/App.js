@@ -2,7 +2,7 @@
 import React from 'react';
 
 //importing title function from title.js, can drop .js file extension
-import Title from './Title';
+// import Title from './Title';
 
 const App = (props) =>{
     return (
@@ -16,4 +16,5 @@ const App = (props) =>{
     );
 }
 
-export default App;
+//exporting the whole function, including data from Title.js
+// export default App;
